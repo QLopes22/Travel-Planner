@@ -1,0 +1,25 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.252);
+}
+
+.icon {
+    font-size: 4rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: .8rem;
+    font-size: 1.25rem;
+}

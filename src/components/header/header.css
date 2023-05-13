@@ -1,0 +1,11 @@
+.search-bar {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 20rem;
+}
