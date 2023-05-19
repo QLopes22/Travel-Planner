@@ -1,8 +1,10 @@
 import React from 'react';
 import './navbar.css';
-import {FaFly} from 'react-icons/fa'
+import {Link} from 'react-router-dom';
+// import {NavItems} from './components/NavItems'
+import {FaFly} from 'react-icons/fa';
 
-const Navbar = () => {
+function Navbar() {
     return(
         <div className= 'navbar-container'>
             <div className= "icon">
@@ -11,11 +13,7 @@ const Navbar = () => {
 
             <div className="nav-items">
               <ul>
-                <li>Home</li>
-                <li>Destinations</li>
-                <li>Tours</li>
-                <li>Contact Us</li>
-                <li>Account</li>
+                  <li><a href='/'>home</a> </li>
               </ul>
             </div>
         </div>
