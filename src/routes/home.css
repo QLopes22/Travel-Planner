@@ -1,0 +1,126 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30rem;
+    
+}
+.overlay {
+    margin-top: 7rem;
+    position: absolute;
+    z-index: -1; 
+
+}
+
+.truck {
+    height: 80vh;
+    width: 83vw;
+}
+
+.homeContent-container {
+    margin-top: 16rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 1.7rem;
+}
+
+img {
+    border-radius: .5rem;
+}
+
+button {
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: .5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+p.lettering {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.destinations p {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.japan-text {
+    text-align: right;
+    padding: .5rem;
+}
+
+.preview-shrine {
+    height: 40vh;
+    padding: .5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+}
+
+.preview-temple {
+    height: 41vh;
+}
+
+.morocco-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 83vw;
+    
+}
+
+.preview-old-town {
+    width: 20vw;
+}
+
+.preview-spice {
+    width: 20vw;
+}
+
+.japan-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 83vw;
+}
+
+.japan-pics {
+    display: flex;
+}
+
+.guatemala-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 83vw;
+    margin-bottom: 2rem;
+}
+
+.guatemala-pics {
+    display: flex;
+}
+
+.preview-ruins {
+    width: 20vw;
+}
+
+.preview-treeHouse {
+    width: 20vw;
+}
+

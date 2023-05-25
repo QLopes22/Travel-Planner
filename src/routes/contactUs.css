@@ -1,0 +1,59 @@
+.container {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.form-side {
+    background-color: orange;
+    height: 41.7rem;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+form {
+    margin: 1rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31rem;
+    gap: 2rem;
+}
+
+input {
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    border: 1.5px black solid;
+}
+
+.message-box {
+    height: 10rem;
+}
+
+.sign-in-btn {
+    width: 10rem;
+    background-color: white;
+    color: black;
+    border: solid 1.5px black;
+}
+
+.contact-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-icon {
+    border-radius: 50%;
+    height: 8rem;
+    margin-bottom: 2rem;
+    border: solid black 1.2px;
+    background-color: white;
+}
+

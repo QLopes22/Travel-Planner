@@ -1,0 +1,22 @@
+.packages-container {
+    padding-top: 8rem;
+    padding-bottom: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.balloons {
+   padding-top: 8.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.balloon-img {
+    position: absolute;
+    z-index: -1;
+    height: 80vh;
+    width: 83vw;
+}

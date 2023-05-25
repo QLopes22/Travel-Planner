@@ -1,0 +1,18 @@
+.account-form {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text {
+    color: white;
+}
+
+form {
+    background-color: orange;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+

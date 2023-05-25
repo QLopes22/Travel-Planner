@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
     background-color: orange;
+    padding: .1rem;
+    margin-bottom: 1rem;
     position: fixed;
     width: 100%;
     z-index: 50;
@@ -10,10 +13,13 @@
 }
 
 .icon {
-    font-size: 4rem;
+    display: flex;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    height: 5.5rem;
 }
 
-ul {
+.nav-list {
     display: flex;
     flex-direction: row;
 }
@@ -21,5 +27,24 @@ ul {
 li {
     list-style: none;
     padding: .8rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-name {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+li.active {
+    background-color: orange;
+}
+
+li:hover {
+    background-color: rgb(55, 55, 55);
+}
+
